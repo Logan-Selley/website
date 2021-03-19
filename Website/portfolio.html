@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,149 +11,159 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
     <title>Portfolio</title>
-  </head>
-  <body style="background-color: #6E7376">
+</head>
+
+<body style="background-color: #6E7376">
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutMe.html">About Me </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Me </a>
-              </li>
-          </ul>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutMe.html">About Me </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Me </a>
+                </li>
+            </ul>
         </div>
     </nav>
 
     <div class="container" style="margin-top: 100px;">
-      <h1 style="text-align: center">Project Portfolio</h1>
-      <a href="Data/Resume.pdf" download="Selley_Resume" class="btn btn-primary" style="display:block; margin:auto">Download My Resume!</a>
-      <hr class="my-4">
-      <div class="row justify-content-center">
-        <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="Data/Imgs/planit.png" alt="Plan-It">
-            <div class="card-body">
-              <h5 class="card-title">Plan-It</h5>
-              <p class="card-text">
-                Info 200 final project, travel app mock-up where all information is sourced by locals instead of tourist reviews
-              </p>
-              <a href="https://projects.invisionapp.com/share/28EUEZCF5#/screens" class="btn btn-primary">Check it out!</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="Data/Imgs/Shiny.png" alt="Mass Shooting Analysis">
-                <div class="card-body">
-                  <h5 class="card-title">Mass Shooting Data Analysis</h5>
-                  <p class="card-text">
-                    Info 201 final project, data analysis of mass shooting in relation to state happiness and gun legislation using R
-                  </p>
-                  <a href="https://logan-selley.shinyapps.io/final-project/" class="btn btn-primary">Check it out!</a>
+        <h1 style="text-align: center">Project Portfolio</h1>
+        <a href="Data/Resume.pdf" download="Selley_Resume" class="btn btn-primary" style="display:block; margin:auto">Download My Resume!</a>
+        <hr class="my-4">
+        <div class="row">
+            <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Data/Imgs/HomelessVoting.jpg" alt="HomelessVoting">
+                    <div class="card-body">
+                        <h5 class="card-title">Homeless Voting Access within Los Angeles County, California</h5>
+                        <p class="card-text">
+                            Collaborative project examining Homeless populations' spatial access to voting centers in Los Angeles County
+                        </p>
+                        <a href="https://storymaps.arcgis.com/stories/04366d4a5e934991b4d066870799dda9" class="btn btn-primary">Check it out!</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="Data/Imgs/github.png" alt="Webscraper">
-                <div class="card-body">
-                  <h5 class="card-title">Webscraper</h5>
-                  <p class="card-text">
-                    simple modular Webscraper done in python with a simple TKinter gui, allowing for complete input of tags and classes to scrape with output to JSON
-                  </p>
-                  <a href="https://github.com/Logan-Selley/Webscraper" class="btn btn-primary">Check it out!</a>
+            <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Data/Imgs/SeattleRent.png" alt="SeattleRent">
+                    <div class="card-body">
+                        <h5 class="card-title">Seattle Rent and Zoning</h5>
+                        <p class="card-text">
+                            Web map using leaflet.js and other libraries showing the distribution of Rent costs in Seattle and how they might relate to city zoning
+                        </p>
+                        <a href="https://logan-selley.github.io/Seattle_Rent_and_Zoning/" class="btn btn-primary">Check it out!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Data/Imgs/Airports.png" alt="USAirports">
+                    <div class="card-body">
+                        <h5 class="card-title">US Airport Distribution</h5>
+                        <p class="card-text">
+                            Simple clustered webmap using leaflet showing the distribution of airports in the United States
+                        </p>
+                        <a href="https://logan-selley.github.io/United_States_Airports_Webmap/" class="btn btn-primary">Check it out!</a>
+                    </div>
                 </div>
             </div>
         </div>
-      </div>
-      <hr class="my-4">
-      <!--
-      <div class="row">
-          <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
-              <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="Data/Imgs/github.png" alt="Tetris">
-                  <div class="card-body">
-                    <h5 class="card-title">Tetris (incomplete)</h5>
-                    <p class="card-text">
-                      Recreation of tetris done in Unity as an exploration project
-                    </p>
-                    <a href="https://github.com/Logan-Selley/tetris" class="btn btn-primary">Check it out!</a>
-                  </div>
+        <hr class="my-4">
+        <div class="row justify-content-center">
+            <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Data/Imgs/planit.png" alt="Plan-It">
+                    <div class="card-body">
+                        <h5 class="card-title">Plan-It</h5>
+                        <p class="card-text">
+                            Info 200 final project, travel app mock-up where all information is sourced by locals instead of tourist reviews
+                        </p>
+                        <a href="https://projects.invisionapp.com/share/28EUEZCF5#/screens" class="btn btn-primary">Check it out!</a>
+                    </div>
                 </div>
-          </div>
-          <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
-              <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="Data/Imgs/github.png" alt="Operating System">
-                  <div class="card-body">
-                    <h5 class="card-title">simple Operating System (incomplete)</h5>
-                    <p class="card-text">
-                      Operating System written in java as an exploration project
-                    </p>
-                    <a href="https://github.com/Logan-Selley/Operating-System" class="btn btn-primary">Check it out!</a>
-                  </div>
+            </div>
+            <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Data/Imgs/Shiny.png" alt="Mass Shooting Analysis">
+                    <div class="card-body">
+                        <h5 class="card-title">Mass Shooting Data Analysis</h5>
+                        <p class="card-text">
+                            Info 201 final project, data analysis of mass shooting in relation to state happiness and gun legislation using R
+                        </p>
+                        <a href="https://logan-selley.shinyapps.io/final-project/" class="btn btn-primary">Check it out!</a>
+                    </div>
                 </div>
-          </div>
-          <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
-              <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="Data/Imgs/github.png" alt="Procedural Generation">
-                  <div class="card-body">
-                    <h5 class="card-title">Procedural Generation (incomplete)</h5>
-                    <p class="card-text">
-                      INCOMPLETE
-                    </p>
-                    <a href="https://github.com/Logan-Selley/Procedural-Generation" class="btn btn-primary">Check it out!</a>
-                  </div>
+            </div>
+            <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Data/Imgs/github.png" alt="Webscraper">
+                    <div class="card-body">
+                        <h5 class="card-title">Webscraper</h5>
+                        <p class="card-text">
+                            simple modular Webscraper done in python with a simple TKinter gui, allowing for complete input of tags and classes to scrape with output to JSON
+                        </p>
+                        <a href="https://github.com/Logan-Selley/Webscraper" class="btn btn-primary">Check it out!</a>
+                    </div>
                 </div>
-          </div>
-      </div>
-      <hr class="my-4">
-      -->
-      <div class="row">
-          <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
-              <div class="card" style="width: 18rem;">
-                  <img class="card-img-top" src="Data/Imgs/github.png" alt="Bandwidth Monitor">
-                  <div class="card-body">
-                    <h5 class="card-title">Bandwidth Monitor</h5>
-                    <p class="card-text">
-                      Basic bandwidth monitor using psutil and a tkinter gui that monitors while active and can write results
-                      to file
-                    </p>
-                    <a href="https://github.com/Logan-Selley/Bandwidth-Monitor" class="btn btn-primary">Check it out!</a>
-                  </div>
-                </div>
-          </div>
-          <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="Data/Imgs/sad.jpg" alt="Discord Bot Avatar">
-                <div class="card-body">
-                  <h5 class="card-title">Discord Bot</h5>
-                  <p class="card-text">
-                    public discord bot written in python 3 primarily using the discord.py library offering many functions
-                    for discord servers especially in music playback
-                  </p>
-                  <a href="https://github.com/Logan-Selley/Discord-Bot" class="btn btn-primary">Check it out!</a>
-                </div>
-              </div>
+            </div>
         </div>
-      </div>
+        <hr class="my-4">
+        <div class="row">
+            <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Data/Imgs/github.png" alt="Bandwidth Monitor">
+                    <div class="card-body">
+                        <h5 class="card-title">Bandwidth Monitor</h5>
+                        <p class="card-text">
+                            Basic bandwidth monitor using psutil and a tkinter gui that monitors while active and can write results to file
+                        </p>
+                        <a href="https://github.com/Logan-Selley/Bandwidth-Monitor" class="btn btn-primary">Check it out!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Data/Imgs/sad.jpg" alt="Discord Bot Avatar">
+                    <div class="card-body">
+                        <h5 class="card-title">Discord Bot</h5>
+                        <p class="card-text">
+                            public discord bot written in python 3 primarily using the discord.py library offering many functions for discord servers especially in music playback
+                        </p>
+                        <a href="https://github.com/Logan-Selley/Discord-Bot" class="btn btn-primary">Check it out!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm d-flex justify-content-center" style="margin-bottom: 20px">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Data/Imgs/Traffic.png" alt="Spokane Traffic">
+                    <div class="card-body">
+                        <h5 class="card-title">Spokane Traffic 2016</h5>
+                        <p class="card-text">
+                            Simple leaflet webmap exploring layer groups and custom basemaps showing Spokane Traffic Flow
+                        </p>
+                        <a href="https://logan-selley.github.io/Spokane_Traffic_2016/" class="btn btn-primary">Check it out!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
