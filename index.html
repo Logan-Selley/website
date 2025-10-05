@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logan Selley - GIS & Data Science Portfolio</title>
+    <link rel="stylesheet" href="selleytech_css.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="scroll-progress"></div>
+
+    <div class="back-to-top" id="backToTop">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
+    </div>
+
+    <nav>
+        <div class="container">
+            <div class="logo">SelleyTech</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Logan Selley</h1>
+                <h2>GIS Specialist & Data Scientist</h2>
+                <p>Transforming spatial data into actionable insights. Specialized in geographic analysis, web mapping, and data visualization using cutting-edge technologies.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    <a href="Data/Resume.pdf" download class="btn btn-secondary">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" style="width: 20px; height: 20px;">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-image-container">
+                    <img src="Data/Imgs/profile.jpg" alt="Logan Selley" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Expertise</h2>
+            <p class="section-subtitle">A comprehensive toolkit for spatial analysis and data science</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🗺️</div>
+                    <h3>GIS & Spatial Analysis</h3>
+                    <p>Expert in geographic information systems with proficiency in both QGIS and Esri products for advanced spatial analysis and cartography.</p>
+                    <div class="skill-tags">
+                        <span class="tag">QGIS</span>
+                        <span class="tag">ArcGIS</span>
+                        <span class="tag">Spatial Analysis</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Programming & Development</h3>
+                    <p>Strong foundation in data science languages and web development technologies for building robust analytical applications.</p>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">R</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3>Data Visualization</h3>
+                    <p>Creating compelling visual narratives from complex datasets using industry-leading visualization tools and frameworks.</p>
+                    <div class="skill-tags">
+                        <span class="tag">Tableau</span>
+                        <span class="tag">D3.js</span>
+                        <span class="tag">Matplotlib</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Web Mapping</h3>
+                    <p>Developing interactive web-based mapping applications that make geographic data accessible and engaging.</p>
+                    <div class="skill-tags">
+                        <span class="tag">Leaflet</span>
+                        <span class="tag">Mapbox</span>
+                        <span class="tag">Web Development</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎓</div>
+                    <h3>Academic Background</h3>
+                    <p>Geography degree with Data Science concentration from University of Washington, complemented by Informatics and Music minors.</p>
+                    <div class="skill-tags">
+                        <span class="tag">Geography</span>
+                        <span class="tag">Data Science</span>
+                        <span class="tag">Informatics</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔬</div>
+                    <h3>Research Focus</h3>
+                    <p>Passionate about humanistic geography, spatial problem-solving, and understanding the critical importance of location in human systems.</p>
+                    <div class="skill-tags">
+                        <span class="tag">Humanistic Geography</span>
+                        <span class="tag">Spatial Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Showcasing spatial analysis and data science work</p>
+            <div class="projects-grid">
+                <div class="project-card" onclick="window.open('https://storymaps.arcgis.com/stories/04366d4a5e934991b4d066870799dda9', '_blank')">
+                    <div class="project-image">
+                        <img src="Data/Imgs/HomelessVoting.jpg" alt="Homeless Voting Access" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Homeless Voting Access in LA County</h3>
+                        <p>Collaborative project examining homeless populations' spatial access to voting centers in Los Angeles County, California.</p>
+                        <div class="skill-tags">
+                            <span class="tag">ArcGIS</span>
+                            <span class="tag">StoryMaps</span>
+                            <span class="tag">Spatial Access</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" onclick="window.open('https://logan-selley.github.io/Seattle_Rent_and_Zoning/', '_blank')">
+                    <div class="project-image">
+                        <img src="Data/Imgs/SeattleRent.png" alt="Seattle Rent and Zoning" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Seattle Rent and Zoning</h3>
+                        <p>Interactive web map using Leaflet.js showing the distribution of rent costs in Seattle and their relationship to city zoning.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Leaflet.js</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Web Mapping</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" onclick="window.open('https://logan-selley.github.io/United_States_Airports_Webmap/', '_blank')">
+                    <div class="project-image">
+                        <img src="Data/Imgs/Airports.png" alt="US Airport Distribution" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>US Airport Distribution</h3>
+                        <p>Clustered web map using Leaflet showing the distribution of airports across the United States.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Leaflet</span>
+                            <span class="tag">Clustering</span>
+                            <span class="tag">Data Viz</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" onclick="window.open('Pages/KentFire.html', '_blank')">
+                    <div class="project-image">
+                        <img src="Data/Imgs/KentFire.png" alt="Kent Fire Density" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Kent Fire Department Response Density</h3>
+                        <p>Analysis examining the concentration of emergency fire department responses in Kent, Washington.</p>
+                        <div class="skill-tags">
+                            <span class="tag">GIS Analysis</span>
+                            <span class="tag">Density Mapping</span>
+                            <span class="tag">Emergency Services</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" onclick="window.open('Pages/ConnecticutHealth.html', '_blank')">
+                    <div class="project-image">
+                        <img src="Data/Imgs/ConnecticutHealth.png" alt="Connecticut Healthcare Access" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Connecticut Healthcare Access</h3>
+                        <p>Press release-style analysis examining population access to federally qualified health centers in Connecticut.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Healthcare GIS</span>
+                            <span class="tag">Access Analysis</span>
+                            <span class="tag">QGIS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" onclick="window.open('Pages/KingCountyPoverty.html', '_blank')">
+                    <div class="project-image">
+                        <img src="Data/Imgs/KingPoverty.png" alt="King County Poverty" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Examining Poverty in King County</h3>
+                        <p>Comprehensive report examining the distribution of poverty in King County, Washington for 2018.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Statistical Analysis</span>
+                            <span class="tag">Demographics</span>
+                            <span class="tag">Cartography</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" onclick="window.open('https://logan-selley.shinyapps.io/final-project/', '_blank')">
+                    <div class="project-image">
+                        <img src="Data/Imgs/Shiny.png" alt="Mass Shooting Analysis" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Mass Shooting Data Analysis</h3>
+                        <p>Data analysis examining mass shootings in relation to state happiness and gun legislation using R and Shiny.</p>
+                        <div class="skill-tags">
+                            <span class="tag">R</span>
+                            <span class="tag">Shiny</span>
+                            <span class="tag">Statistical Analysis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" onclick="window.open('https://logan-selley.github.io/Spokane_Traffic_2016/', '_blank')">
+                    <div class="project-image">
+                        <img src="Data/Imgs/Traffic.png" alt="Spokane Traffic" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Spokane Traffic 2016</h3>
+                        <p>Leaflet web map exploring layer groups and custom basemaps showing Spokane traffic flow patterns.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Leaflet</span>
+                            <span class="tag">Web Mapping</span>
+                            <span class="tag">Custom Basemaps</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" onclick="window.open('Pages/KingCountyEducation.html', '_blank')">
+                    <div class="project-image">
+                        <img src="Data/Imgs/KingPoverty.png" alt="Educational Opportunity" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Educational Opportunity in King County</h3>
+                        <p>Report applying and examining an educational opportunity index to King County, Washington.</p>
+                        <div class="skill-tags">
+                            <span class="tag">GIS Analysis</span>
+                            <span class="tag">Education Policy</span>
+                            <span class="tag">Index Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" onclick="window.open('https://github.com/Logan-Selley/Discord-Bot', '_blank')">
+                    <div class="project-image">
+                        <img src="Data/Imgs/sad.jpg" alt="Discord Bot" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3>Discord Bot</h3>
+                        <p>Public Discord bot written in Python offering various functions for Discord servers, especially music playback.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Discord.py</span>
+                            <span class="tag">API Integration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Open to employment opportunities and collaboration</p>
+                <div class="contact-grid">
+                    <a href="mailto:logan@selleytech.com" class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>logan@selleytech.com</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/logan-selley/" target="_blank" class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect</p>
+                    </a>
+                    <a href="https://github.com/Logan-Selley" target="_blank" class="contact-item">
+                        <div class="contact-icon">🐙</div>
+                        <h3>GitHub</h3>
+                        <p>View Code</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Logan Selley. All rights reserved.</p>
+    </footer>
+
+    <script src="selleytech_js.js"></script>
+</body>
+</html>

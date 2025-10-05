@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logan Selley - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            line-height: 1.4;
+            color: #000;
+            background: white;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 8.5in;
+            height: 11in;
+            margin: 0 auto;
+            padding: 0.5in 0.6in;
+            background: white;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #333;
+        }
+        
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .contact-info {
+            font-size: 10px;
+            color: #333;
+            margin-top: 6px;
+        }
+        
+        .contact-info span {
+            margin: 0 8px;
+        }
+        
+        h2 {
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 14px;
+            margin-bottom: 8px;
+            padding-bottom: 3px;
+            border-bottom: 1px solid #666;
+            letter-spacing: 0.5px;
+        }
+        
+        .job {
+            margin-bottom: 12px;
+        }
+        
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            font-size: 11px;
+        }
+        
+        .company {
+            font-weight: bold;
+            font-size: 11px;
+        }
+        
+        .job-date {
+            font-size: 10px;
+            color: #333;
+            font-style: italic;
+        }
+        
+        .job-location {
+            font-size: 10px;
+            color: #555;
+            margin-bottom: 4px;
+        }
+        
+        ul {
+            margin-left: 18px;
+            margin-top: 4px;
+        }
+        
+        li {
+            font-size: 10px;
+            margin-bottom: 3px;
+            line-height: 1.3;
+        }
+        
+        .education {
+            margin-bottom: 8px;
+        }
+        
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2px;
+        }
+        
+        .degree {
+            font-weight: bold;
+            font-size: 11px;
+        }
+        
+        .school {
+            font-weight: bold;
+            font-size: 11px;
+        }
+        
+        .education-date {
+            font-size: 10px;
+            color: #333;
+            font-style: italic;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-top: 6px;
+        }
+        
+        .skill-category {
+            font-size: 10px;
+        }
+        
+        .skill-category strong {
+            font-weight: bold;
+        }
+        
+        .summary {
+            font-size: 10px;
+            line-height: 1.4;
+            margin-top: 6px;
+            text-align: justify;
+        }
+        
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                margin: 0;
+                padding: 0.5in 0.6in;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Logan Selley</h1>
+            <div class="contact-info">
+                Seattle, Washington <span>|</span> linkedin.com/in/logan-selley  <span>|</span> www.selleytech.com
+            </div>
+        </header>
+        
+        <section>
+            <h2>Professional Summary</h2>
+            <p class="summary">
+                GIS Professional with 4+ years of experience in geospatial data curation and analysis for Apple Maps. Proven track record leading technical teams, optimizing workflows, and leveraging Python and SQL to improve data quality and processing efficiency. Strong background in Geography: Data Science with expertise in ArcGIS Pro and QGIS.
+            </p>
+        </section>
+        
+        <section>
+            <h2>Professional Experience</h2>
+            
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="company">Apple</span> - <span class="job-title">Technical Specialist (SQL) via RMSI</span>
+                    </div>
+                    <span class="job-date">May 2022 - Present</span>
+                </div>
+                <div class="job-location">Seattle, Washington | Hybrid</div>
+                <ul>
+                    <li>Lead 2 sub-teams totaling 15 individuals covering ingestion and curation of geospatial territory data for Apple Maps releases</li>
+                    <li>Create new workflows and refine existing processes to improve product quality, efficiency, and throughput for map data production</li>
+                    <li>Utilize Python programming and SQL to optimize data processing pipelines and automate geospatial analysis tasks</li>
+                    <li>Develop and maintain complex SQL queries for data validation, quality assurance, and geospatial analysis</li>
+                    <li>Collaborate with cross-functional teams to identify data quality issues and implement systematic solutions</li>
+                    <li>Mentor team members on technical best practices, Python scripting, and geospatial data processing techniques</li>
+                    <li>Manage project timelines and deliverables to ensure on-time release of high-quality map data to production</li>
+                </ul>
+            </div>
+            
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="company">Apple</span> - <span class="job-title">Geographic Information Systems Technician via RMSI</span>
+                    </div>
+                    <span class="job-date">Nov 2021 - May 2022</span>
+                </div>
+                <div class="job-location">Remote</div>
+                <ul>
+                    <li>Refined complex SQL queries and automated processes for efficient data curation supporting Apple Maps releases</li>
+                    <li>Applied geospatial data analysis and Python programming to enhance data quality and processing efficiency</li>
+                    <li>Contributed to documentation of standard operating procedures and technical workflows for team consistency</li>
+                </ul>
+            </div>
+            
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="company">Apple</span> - <span class="job-title">Geographic Information Systems Technician via Mindlance</span>
+                    </div>
+                    <span class="job-date">Jun 2021 - Nov 2021</span>
+                </div>
+                <div class="job-location">Remote</div>
+                <ul>
+                    <li>Performed geospatial data curation, validation, and processing using Python scripts for mapping applications</li>
+                    <li>Contributed to data quality improvements through systematic analysis, validation, and error detection workflows</li>
+                    <li>Utilized QGIS, SQL and proprietary software for spatial data visualization, analysis, and quality control processes</li>
+                    <li>Collaborated with senior technicians to troubleshoot data inconsistencies and implement corrective measures</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Education</h2>
+            <div class="education">
+                <div class="education-header">
+                    <div>
+                        <span class="school">University of Washington</span> - <span class="degree">Bachelor of Arts, Geography: Data Science</span>
+                    </div>
+                    <span class="education-date">2016 - 2021</span>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <strong>Programming & Databases:</strong> Python, SQL, Snowflake, PostgreSQL, Java, Web Development, R, Data Analysis, Tableu
+                </div>
+                <div class="skill-category">
+                    <strong>GIS Software:</strong> ArcGIS Pro, QGIS, Geospatial Analysis, Leaflet, Mapbox
+                </div>
+                <div class="skill-category">
+                    <strong>Data Management:</strong> Data Curation, Quality Assurance, Data Visualization
+                </div>
+                <div class="skill-category">
+                    <strong>Technical Skills:</strong> Workflow Optimization, Process Automation, Technical Writing
+                </div>
+                <div class="skill-category">
+                    <strong>Leadership:</strong> Team Management, Mentoring, Project Coordination
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Additional Qualifications</h2>
+            <ul style="margin-left: 18px; margin-top: 6px;">
+                <li>Proficient in developing Python scripts for automating geospatial data processing and analysis workflows</li>
+                <li>Experience with spatial database management and complex query optimization for large-scale datasets</li>
+                <li>Strong problem-solving abilities with focus on identifying efficiency improvements in data pipelines</li>
+                <li>Excellent communication skills with experience translating technical concepts for cross-functional teams</li>
+            </ul>
+        </section>
+    </div>
+    
+    <script>
+        // Automatically trigger print dialog for easy PDF saving
+        // Commented out by default - uncomment if you want auto-print
+        // window.onload = function() { window.print(); }
+    </script>
+</body>
+</html>
