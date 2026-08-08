@@ -269,6 +269,19 @@ nav .container {
     to { opacity: 1; }
 }
 
+/* Experience Section */
+.experience {
+    padding: 8rem 5%;
+}
+
+.confidential-note {
+    text-align: center;
+    color: #64748b;
+    font-size: 0.95rem;
+    font-style: italic;
+    margin-top: 3rem;
+}
+
 /* Skills Section */
 .skills {
     padding: 8rem 5%;

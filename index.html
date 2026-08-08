@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logan Selley - GIS & Data Science Portfolio</title>
+    <title>Logan Selley - Geospatial Data Engineer</title>
     <link rel="stylesheet" href="selleytech_css.css">
 </head>
 <body>
@@ -21,8 +21,9 @@
             <div class="logo">SelleyTech</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#projects">Earlier Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -32,10 +33,10 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h1>Logan Selley</h1>
-                <h2>GIS Specialist & Data Scientist</h2>
-                <p>Transforming spatial data into actionable insights. Specialized in geographic analysis, web mapping, and data visualization using cutting-edge technologies.</p>
+                <h2>Geospatial Data Engineer</h2>
+                <p>Building production data pipelines for spatial data at scale. Five years on Apple Maps — owning territory data end to end, from multi-vendor ingestion through curation to production release, with Python, Snowflake, and AWS.</p>
                 <div class="cta-buttons">
-                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#experience" class="btn btn-primary">Current Work</a>
                     <a href="#contact" class="btn btn-secondary">Get in Touch</a>
                     <a href="Data/Resume.pdf" download class="btn btn-secondary">
                         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" style="width: 20px; height: 20px;">
@@ -53,79 +54,182 @@
         </div>
     </section>
 
-    <section id="skills" class="skills">
+    <section id="experience" class="experience">
         <div class="container">
-            <h2 class="section-title">Expertise</h2>
-            <p class="section-subtitle">A comprehensive toolkit for spatial analysis and data science</p>
+            <h2 class="section-title">Current Work</h2>
+            <p class="section-subtitle">Apple Maps via RMSI &mdash; GIS Technician &rarr; Technical Specialist &middot; 2021&ndash;Present</p>
             <div class="skills-grid">
                 <div class="skill-card">
-                    <div class="skill-icon">🗺️</div>
-                    <h3>GIS & Spatial Analysis</h3>
-                    <p>Expert in geographic information systems with proficiency in both QGIS and Esri products for advanced spatial analysis and cartography.</p>
+                    <div class="skill-icon">🔄</div>
+                    <h3>Production Pipeline Ownership</h3>
+                    <p>Co-lead a team of 10 owning an end-to-end territory data pipeline — from vendor handoff through curation to production release on Apple Maps.</p>
                     <div class="skill-tags">
-                        <span class="tag">QGIS</span>
-                        <span class="tag">ArcGIS</span>
-                        <span class="tag">Spatial Analysis</span>
+                        <span class="tag">ETL</span>
+                        <span class="tag">Team Leadership</span>
+                        <span class="tag">Release Management</span>
                     </div>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon">💻</div>
-                    <h3>Programming & Development</h3>
-                    <p>Strong foundation in data science languages and web development technologies for building robust analytical applications.</p>
+                    <div class="skill-icon">🧩</div>
+                    <h3>Entity Resolution at Scale</h3>
+                    <p>Designed a multi-stage duplicate cluster detection system combining fuzzy matching (Jaro-Winkler, Levenshtein), spatial clustering, and Union-Find connected components.</p>
+                    <div class="skill-tags">
+                        <span class="tag">Fuzzy Matching</span>
+                        <span class="tag">Spatial Clustering</span>
+                        <span class="tag">Union-Find</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Pipeline Automation</h3>
+                    <p>Built a Python CLI automation suite integrating Snowflake ETL workflows, replacing manual curation steps with repeatable, validated tooling.</p>
                     <div class="skill-tags">
                         <span class="tag">Python</span>
-                        <span class="tag">R</span>
-                        <span class="tag">SQL</span>
-                        <span class="tag">JavaScript</span>
+                        <span class="tag">CLI Tooling</span>
+                        <span class="tag">Snowflake</span>
                     </div>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon">📊</div>
-                    <h3>Data Visualization</h3>
-                    <p>Creating compelling visual narratives from complex datasets using industry-leading visualization tools and frameworks.</p>
+                    <div class="skill-icon">☁️</div>
+                    <h3>Infrastructure Migrations</h3>
+                    <p>Carried production workloads through two infrastructure migrations: PostgreSQL to Snowflake, and Hadoop HDFS to AWS S3.</p>
                     <div class="skill-tags">
-                        <span class="tag">Tableau</span>
-                        <span class="tag">D3.js</span>
-                        <span class="tag">Matplotlib</span>
+                        <span class="tag">Snowflake</span>
+                        <span class="tag">AWS S3</span>
+                        <span class="tag">HDFS</span>
                     </div>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon">🌐</div>
-                    <h3>Web Mapping</h3>
-                    <p>Developing interactive web-based mapping applications that make geographic data accessible and engaging.</p>
+                    <div class="skill-icon">📐</div>
+                    <h3>Geometry Validation &amp; Repair</h3>
+                    <p>Developed geometry repair workflows — snap-to-grid alignment, Voronoi tessellation, and WKB topology validation — to keep spatial data production-ready.</p>
                     <div class="skill-tags">
+                        <span class="tag">Shapely</span>
+                        <span class="tag">WKB</span>
+                        <span class="tag">Topology</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">✅</div>
+                    <h3>Data Quality Frameworks</h3>
+                    <p>Built quality assurance frameworks for multi-vendor data ingestion: systematic validation, error detection, and curation standards across releases.</p>
+                    <div class="skill-tags">
+                        <span class="tag">QA Workflows</span>
+                        <span class="tag">Validation</span>
+                        <span class="tag">Multi-vendor Data</span>
+                    </div>
+                </div>
+            </div>
+            <p class="confidential-note">Apple Maps work is confidential &mdash; described here in terms of techniques and categories of work rather than internal systems or data.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">A data engineering toolkit with deep geospatial specialization</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python for Data Engineering</h3>
+                    <p>Daily driver for pipeline automation, spatial data processing, and API integration in production.</p>
+                    <div class="skill-tags">
+                        <span class="tag">Pandas</span>
+                        <span class="tag">NumPy</span>
+                        <span class="tag">GeoPandas</span>
+                        <span class="tag">Shapely</span>
+                        <span class="tag">Fiona</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>SQL &amp; Warehousing</h3>
+                    <p>Complex analytical SQL, ETL workflow development, and spatial querying across cloud and relational warehouses.</p>
+                    <div class="skill-tags">
+                        <span class="tag">Snowflake</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">PostGIS</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud &amp; Infrastructure</h3>
+                    <p>Production experience with cloud object storage, distributed file systems, and containerized tooling.</p>
+                    <div class="skill-tags">
+                        <span class="tag">AWS S3</span>
+                        <span class="tag">Hadoop HDFS</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🧹</div>
+                    <h3>Data Quality &amp; Entity Resolution</h3>
+                    <p>Deduplication, fuzzy matching, and validation frameworks that keep large multi-source datasets production-ready.</p>
+                    <div class="skill-tags">
+                        <span class="tag">Fuzzy Matching</span>
+                        <span class="tag">Topology Validation</span>
+                        <span class="tag">Deduplication</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗺️</div>
+                    <h3>Geospatial Foundation</h3>
+                    <p>The differentiator: deep GIS fundamentals underpinning the engineering work, from desktop analysis to web mapping.</p>
+                    <div class="skill-tags">
+                        <span class="tag">QGIS</span>
+                        <span class="tag">ArcGIS Pro</span>
                         <span class="tag">Leaflet</span>
                         <span class="tag">Mapbox</span>
-                        <span class="tag">Web Development</span>
                     </div>
                 </div>
                 <div class="skill-card">
                     <div class="skill-icon">🎓</div>
-                    <h3>Academic Background</h3>
-                    <p>Geography degree with Data Science concentration from University of Washington, complemented by Informatics and Music minors.</p>
+                    <h3>Education</h3>
+                    <p>B.A. Geography: Data Science from the University of Washington, with minors in Informatics and Music.</p>
                     <div class="skill-tags">
                         <span class="tag">Geography</span>
                         <span class="tag">Data Science</span>
                         <span class="tag">Informatics</span>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         PLACEHOLDER: Flagship DE Project (not yet built — do not publish
+         this section until the project exists).
+
+         Planned: public geospatial dataset ingested via Azure Data Factory,
+         Azure Function ingestion logic, Key Vault credential management,
+         ADLS Gen2 landing zone, load into Snowflake, dbt medallion models.
+
+         When ready, uncomment and fill in — it slots here, between Skills
+         and Earlier Work, as the primary portfolio piece.
+
+    <section id="featured-project" class="featured-project">
+        <div class="container">
+            <h2 class="section-title">Featured Project</h2>
+            <p class="section-subtitle">End-to-end cloud data pipeline for public geospatial data</p>
+            <div class="skills-grid">
                 <div class="skill-card">
-                    <div class="skill-icon">🔬</div>
-                    <h3>Research Focus</h3>
-                    <p>Passionate about humanistic geography, spatial problem-solving, and understanding the critical importance of location in human systems.</p>
+                    <h3>[Project name]</h3>
+                    <p>[Architecture summary, link to repo and write-up]</p>
                     <div class="skill-tags">
-                        <span class="tag">Humanistic Geography</span>
-                        <span class="tag">Spatial Analysis</span>
+                        <span class="tag">[Tech]</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    ============================================================ -->
 
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <p class="section-subtitle">Showcasing spatial analysis and data science work</p>
+            <h2 class="section-title">Earlier GIS &amp; Analysis Work</h2>
+            <p class="section-subtitle">Academic projects from the University of Washington &mdash; the spatial analysis and visualization fundamentals behind the engineering work above</p>
             <div class="projects-grid">
                 <div class="project-card" onclick="window.open('https://storymaps.arcgis.com/stories/04366d4a5e934991b4d066870799dda9', '_blank')">
                     <div class="project-image">
@@ -253,20 +357,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-card" onclick="window.open('https://github.com/Logan-Selley/Discord-Bot', '_blank')">
-                    <div class="project-image">
-                        <img src="Data/Imgs/sad.jpg" alt="Discord Bot" style="width: 100%; height: 100%; object-fit: cover;">
-                    </div>
-                    <div class="project-content">
-                        <h3>Discord Bot</h3>
-                        <p>Public Discord bot written in Python offering various functions for Discord servers, especially music playback.</p>
-                        <div class="skill-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">Discord.py</span>
-                            <span class="tag">API Integration</span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -275,7 +365,7 @@
         <div class="container">
             <div class="contact-content">
                 <h2 class="section-title">Let's Connect</h2>
-                <p class="section-subtitle">Open to employment opportunities and collaboration</p>
+                <p class="section-subtitle">Open to data engineering opportunities and collaboration</p>
                 <div class="contact-grid">
                     <a href="mailto:logan@selleytech.com" class="contact-item">
                         <div class="contact-icon">📧</div>
@@ -298,7 +388,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 Logan Selley. All rights reserved.</p>
+        <p>&copy; 2026 Logan Selley. All rights reserved.</p>
     </footer>
 
     <script src="selleytech_js.js"></script>
