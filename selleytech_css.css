@@ -395,6 +395,82 @@ nav .container {
     font-size: 0.9rem;
 }
 
+/* Featured Project Section */
+.featured-project {
+    padding: 8rem 5%;
+}
+
+.featured-card {
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgba(30, 41, 59, 0.5);
+    padding: 3rem;
+    border-radius: 12px;
+    position: relative;
+}
+
+.featured-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 2px;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.featured-card h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #fff, var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.featured-card > p {
+    color: #94a3b8;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.featured-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.stat {
+    text-align: center;
+    padding: 1.25rem 0.75rem;
+    background: rgba(15, 23, 42, 0.5);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat-number {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--accent);
+    margin-bottom: 0.25rem;
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
+
+.featured-card .cta-buttons {
+    margin-top: 2rem;
+    animation: none;
+}
+
 /* Projects Section */
 .projects {
     padding: 8rem 5%;
