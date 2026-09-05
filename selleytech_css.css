@@ -623,7 +623,7 @@ nav .container {
     transform: scale(1.2) rotate(10deg);
 }
 
-/* Footer */
+/* Cursor trail */
 .cursor-trail {
     position: fixed;
     width: 20px;
