@@ -49,7 +49,6 @@ function createParticle() {
     
     backgroundEl.appendChild(particle);
     
-    // Fade in
     requestAnimationFrame(() => {
         particle.style.transition = 'opacity 1s ease-in';
         particle.style.opacity = '1';
@@ -63,12 +62,11 @@ function createParticle() {
     }, 6000);
 }
 
-// Create initial particles
 for (let i = 0; i < 20; i++) {
     setTimeout(createParticle, i * 100);
 }
 
-// Then create new ones less frequently
+// New ones spawn less frequently
 setInterval(createParticle, 2000);
 
 // Scroll progress indicator
